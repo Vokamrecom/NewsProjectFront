@@ -45,7 +45,7 @@ const AppContent = () => {
         </Routes>
       </Content>
       <Footer style={{ textAlign: 'center' }}>
-        © 2024 News Website. Все права защищены.
+        © 2025 News Website. Все права защищены.
       </Footer>
     </Layout>
   );

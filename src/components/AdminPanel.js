@@ -87,23 +87,21 @@ const AdminPanel = () => {
     {
       title: 'Действия',
       key: 'actions',
-      width: 180,
+      width: 120,
       render: (_, record) => (
         <Space>
           <Button 
             type="primary" 
             icon={<EditOutlined />}
             onClick={() => handleEdit(record)}
-          >
-            {t('editNews')}
-          </Button>
+            title={t('editNews')}
+          />
           <Button 
             danger
             icon={<DeleteOutlined />}
             onClick={() => handleDelete(record.id)}
-          >
-            {t('deleteNews')}
-          </Button>
+            title={t('deleteNews')}
+          />
         </Space>
       ),
     },
